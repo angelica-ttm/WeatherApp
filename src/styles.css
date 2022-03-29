@@ -1,0 +1,153 @@
+body {
+  font-family: sans-serif;
+  padding: 0px 70px 0px 30px;
+  background: linear-gradient(
+    90deg,
+    rgb(115, 196, 252) 0%,
+    rgb(139, 102, 241) 100%
+  );
+}
+
+h1 {
+  text-align: center;
+
+  margin: 0;
+  font-size: 24px;
+  line-height: 48px;
+  color: white;
+}
+
+h1 h2,
+h3 {
+  color: #231d3c;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+button {
+  border-radius: 50px;
+
+  border: purple;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  padding: 20px 50%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.today-in {
+  color: white;
+  text-align: center;
+
+  font-weight: lighter;
+}
+.today-weather {
+  background: #36b5f8;
+  color: black;
+  font-weight: bolder;
+  font-size: x-large;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #36b5f8;
+}
+
+.today-location {
+  background: transparent;
+  color: black;
+  font-weight: bolder;
+  border: 1px solid #36b5f8;
+  font-size: x-large;
+}
+
+.next-days-label {
+  padding: 20px 0;
+}
+.next-day-button {
+  margin-top: 0px;
+}
+
+.next-day-1 {
+  border: 1px solid #ff3366;
+  border-radius: 50px;
+  background: rgba(255, 51, 102, 0.6);
+
+  color: white;
+  font-weight: bolder;
+}
+
+.next-day-2 {
+  border: 1px solid #ab47bb;
+  border-radius: 50px;
+  background: rgba(171, 71, 187, 0.6);
+
+  color: white;
+  font-weight: bolder;
+}
+.next-day-3 {
+  border: 1px solid #586aca;
+  border-radius: 50px;
+  background: rgba(88, 106, 202, 0.6);
+
+  color: white;
+  font-weight: bolder;
+}
+
+.next-day-4 {
+  border: 1px solid #006dc5;
+  border-radius: 50px;
+  background: rgba(0, 109, 197, 0.6);
+
+  color: white;
+  font-weight: bolder;
+}
+
+.next-day-5 {
+  border: 1px solid #4eae53;
+  border-radius: 50px;
+  background: rgba(78, 174, 83, 0.6);
+
+  color: white;
+  font-weight: bolder;
+}
+
+.change-city-bar {
+  border: 1px solid grey;
+  border-radius: 50px;
+  background: rgba(196, 197, 196, 0.2);
+
+  color: black;
+  font-weight: bolder;
+}
+.form-label {
+  color: rgb(66, 66, 66);
+}
+
+input {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: transparent;
+  border: 0px;
+  border-radius: 50px;
+
+  text-align: center;
+}
+
+#convert {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: transparent;
+  border: 0px;
+  border-radius: 50px;
+
+  text-align: center;
+}
