@@ -45,7 +45,7 @@ button {
 .today-in {
   color: white;
   text-align: center;
-
+  border-radius: 50px;
   font-weight: lighter;
 }
 .today-weather {
@@ -57,6 +57,7 @@ button {
   overflow: hidden;
   text-overflow: ellipsis;
   border: 1px solid #36b5f8;
+  border-radius: 50px;
 }
 
 .today-location {
@@ -65,6 +66,7 @@ button {
   font-weight: bolder;
   border: 1px solid #36b5f8;
   font-size: x-large;
+  border-radius: 50px;
 }
 
 .next-days-label {
@@ -149,5 +151,11 @@ input {
   border: 0px;
   border-radius: 50px;
 
+  text-align: center;
+}
+
+#link-to-site {
+  display: block;
+  margin: 0 auto;
   text-align: center;
 }
